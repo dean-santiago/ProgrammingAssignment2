@@ -15,7 +15,7 @@ makeCacheMatrix <- function(x = matrix()) {
        getinv = getinv)
 }
 
-#The function cacheSolve will search for a cached inverse for a data frame. 
+#The function "cacheSolve" will search for a cached inverse for a data frame. 
   #If there is no cached inverse, it will calculate it. 
   #This function can save time in computing since it will eliminate any
     #unneccesary calculations
